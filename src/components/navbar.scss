@@ -12,8 +12,7 @@
     align-items: center;
     width: 80%;
     margin: 0px auto;
-    height: 90px;
-    
+    height: 90px;    
 }
 .btnsdiv{
     display: flex;
@@ -25,9 +24,44 @@
     height: 40px;
     font-size: 18px;
     background-color: black;
+    border-top: 0px;
+    border-left: 0px;
     cursor: pointer;
     transition: all 1s;
 }
 .btn:hover{
     border-bottom: 2px solid white;
+}
+.burg{
+    display: none;
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+@media (max-width:1200px){
+    .btnsdiv{
+        display: none;
+        gap: 10px;
+    }
+    .burg{
+        display: block;
+    }
+    #hidden{
+        position: absolute;
+        left: 0;
+        top: 90px;
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        
+    }
+    .btn{
+        width: 100vw;
+        height: 150px;
+        font-size: 50px;
+        border: 0px;
+    }
 }
