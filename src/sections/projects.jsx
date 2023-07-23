@@ -5,6 +5,7 @@ import img2 from '../images/anime.png'
 import img3 from '../images/travel.png'
 import img4 from '../images/home.png'
 
+
 const Projects=()=>{
     const gymtext = "Choose a bodypart and see which exerises to use"
     const animetext ="search which anime you want to watch using anime api"

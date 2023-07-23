@@ -6,6 +6,7 @@ import img4 from '../images/react.png'
 import img5 from '../images/git.png'
 import img6 from '../images/mui.png'
 import img7 from '../images/bootstrap.png'
+import img8 from '../images/typescript.png'
 
 const About=()=>{
     return(
@@ -41,6 +42,10 @@ const About=()=>{
                             </div>
                         </div>
                         <div className='iconsside2'>
+                            <div className='icondiv'>
+                                <img src={img8} className="icons"></img>
+                                <p >Typesrcipt</p>
+                            </div>
                             <div className='icondiv'>
                                 <img src={img5} className="icons"></img>
                                 <p >Git</p>
